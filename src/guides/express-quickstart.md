@@ -14,6 +14,6 @@ app.get('/api/hello', (req, res) => {
 })
 
 app.listen(3000, () => {
-  console.log('Server läuft auf http://localhost:3000')
+  console.log('http://localhost:3000')
 })
 ```
