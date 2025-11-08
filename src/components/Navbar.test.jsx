@@ -9,7 +9,7 @@ describe('Navbar', () => {
     renderWithProviders(<Navbar />)
 
     expect(screen.getByRole('link', { name: /start/i })).toBeVisible()
-    expect(screen.getByRole('link', { name: /guides/i })).toHaveAttribute('href', '/guides')
+    expect(screen.getByRole('link', { name: /^guides$/i })).toHaveAttribute('href', '/guides')
     expect(screen.getByRole('link', { name: /Themen/i })).toHaveAttribute('href', '/topics')
   })
 
