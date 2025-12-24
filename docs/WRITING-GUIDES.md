@@ -15,3 +15,9 @@
 
 ## Stil
 - Aktiv, kurz, präzise. Deutsche UI-Texte, englische API-Begriffe.
+
+## Checkliste
+- Strukturpunkte enthalten: Problem/Goal, Voraussetzungen, Schritte, Erklaerung, Varianten, Checkliste.
+- Codebloecke sind lauffaehig und vollstaendig.
+- `# HINWEIS:`-Zeilen markieren Besonderheiten.
+- Stil ist aktiv, kurz und praezise.

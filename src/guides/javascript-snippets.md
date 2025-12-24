@@ -320,3 +320,10 @@ worker.postMessage(structuredClone({ payload: [1, 2, 3] }))
 ---
 
 **Merke:** Arbeite immutabel, dokumentiere jede genutzte Funktion direkt am Beispiel und setze Timeouts/Fallbacks bei Async-Tasks konsequent um.
+
+## Checkliste
+- Moderne Syntax (Destructuring, `const`/`let`) genutzt.
+- Arrays/Objekte immutabel bearbeitet.
+- Async-Requests mit Timeout/Abort abgesichert.
+- Browser-APIs (Observer, Clipboard) mit Guards eingesetzt.
+- Tooling-Hilfen (`console.time`, Worker) fuer Debugging genutzt.

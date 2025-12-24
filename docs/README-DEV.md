@@ -16,3 +16,9 @@
 
 ## Deployment
 - Static Hosting (z. B. Netlify, Vercel, GitHub Pages)
+
+## Checkliste
+- Dev-Server laeuft lokal.
+- Build und Preview funktionieren.
+- Lint, Format und Tests laufen.
+- Deployment-Ziel festgelegt.
