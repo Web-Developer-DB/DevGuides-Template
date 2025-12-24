@@ -29,3 +29,9 @@ export default function App() {
   return <Hello name="World" />
 }
 ```
+
+## Checkliste
+- Vite-Projekt erstellt und Abhaengigkeiten installiert.
+- Dev-Server laeuft (`npm run dev`).
+- `Hello` rendert den Namen.
+- Button erhoeht den Zaehler.

@@ -30,3 +30,10 @@ npm test
 ```
 
 Weitere Details findest du in `docs/README-DEV.md`, Schreibregeln in `docs/WRITING-GUIDES.md`.
+
+## Checkliste
+- `npm install` ausgefuehrt.
+- `npm run dev` startet lokal.
+- Neues Tutorial in `src/guides/` angelegt.
+- Meta-Infos in `src/data/guides.js` ergaenzt.
+- Lint und Tests laufen (`npm run lint`, `npm test`).

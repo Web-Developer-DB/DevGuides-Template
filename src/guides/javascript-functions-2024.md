@@ -98,3 +98,10 @@ const reader = response.body.pipeThrough(new TextDecoderStream()).getReader()
 ---
 
 **Merke:** Setze auf nicht-mutierende Methoden (`toSorted`, `with`), nutze `structuredClone` statt eigener Deep-Copy-Utilities und plane Abbrüche (`AbortController`) standardmäßig ein.
+
+## Checkliste
+- Nicht-mutierende Array-Methoden bevorzugt (`toSorted`, `toReversed`, `with`).
+- `structuredClone` fuer tiefe Kopien verwendet.
+- `AbortController` fuer Fetch-Timeouts gesetzt.
+- Intl APIs fuer Formatierung genutzt.
+- Asynchrone Flows mit `Promise.all`/`Promise.allSettled` geplant.

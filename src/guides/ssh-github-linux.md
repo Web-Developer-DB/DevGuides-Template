@@ -98,3 +98,10 @@ Host github-work
   IdentityFile ~/.ssh/work_ed25519
 ```
 Nutze dann `git@github-work:<org>/<repo>.git` für das Arbeitskonto.
+
+## Checkliste
+- Key im `~/.ssh` vorhanden und im Agent geladen.
+- Public Key in GitHub hinterlegt.
+- `ssh -T git@github.com` erfolgreich.
+- Remote-URL auf SSH umgestellt.
+- Optional: `~/.ssh/config` fuer mehrere Accounts gepflegt.
