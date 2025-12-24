@@ -4,6 +4,8 @@ Alle nennenswerten Änderungen an diesem Projekt werden in dieser Datei dokument
 Das Format basiert auf **Keep a Changelog** und die Versionierung auf **SemVer**.
 
 ## [Unreleased]
+
+## [0.2.0] - 2025-12-24
 ### Added
 - Hashtag-Index samt Filter-UI und Tag-Uebersicht fuer schnelleres Browsing.
 - Neue Home-Sektion fuer neueste Tutorials mit klickbaren Karten.
