@@ -4,6 +4,20 @@ Alle nennenswerten Änderungen an diesem Projekt werden in dieser Datei dokument
 Das Format basiert auf **Keep a Changelog** und die Versionierung auf **SemVer**.
 
 ## [Unreleased]
+### Added
+- TBD
+
+### Changed
+- TBD
+
+### Fixed
+- TBD
+
+### Removed
+- TBD
+
+### Docs
+- TBD
 
 ## [0.2.0] - 2025-12-24
 ### Added
