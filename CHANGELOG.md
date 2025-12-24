@@ -5,19 +5,19 @@ Das Format basiert auf **Keep a Changelog** und die Versionierung auf **SemVer**
 
 ## [Unreleased]
 ### Added
-- TBD
+- Checklisten am Ende aller Guides und Redaktionsdokumente.
 
 ### Changed
-- TBD
+- Abhaengigkeiten via `npm audit fix --force` aktualisiert (u. a. Vite 7, Vitest 4).
 
 ### Fixed
-- TBD
+- NPM-Audit-Warnungen durch Dependency-Updates behoben.
 
 ### Removed
-- TBD
+- N/A
 
 ### Docs
-- TBD
+- README, Dev- und Schreibdoku um Checklisten erweitert.
 
 ## [0.2.0] - 2025-12-24
 ### Added
